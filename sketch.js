@@ -136,7 +136,7 @@ function draw() {
   else {
 
      // potenciómetro controla cantidad de Azul
-    fill(0, 0, colorPotenciometro);
+    fill(colorPotenciometro, colorPotenciometro, 0);
   }
 
   // dibujar elipse
